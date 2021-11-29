@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Muhammad-Zaka/learn-go/handlers"
+)
 
 func main() {
 
@@ -9,4 +13,5 @@ func main() {
 	circumference := 2 * PI * float64(radius)
 
 	fmt.Printf("For a radius of %v. The circumference is %v", radius, circumference)
+	fmt.Println(handlers.Handle)
 }
